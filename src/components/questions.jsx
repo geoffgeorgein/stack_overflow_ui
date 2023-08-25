@@ -10,7 +10,7 @@ const Questions = () => {
         "https://api.stackexchange.com/2.3/articles?order=desc&sort=activity&site=stackoverflow"
       );
       console.log("reqs", request);
-      setPosts(request.data.items);
+      setPosts(request.data.items.slice(0,7));
 
       return request;
     }
