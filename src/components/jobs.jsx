@@ -4,15 +4,15 @@ const Jobs = () => {
   return (
     <div>
       <div className="topSec">
-        <h2 className="p-3 py-4 text-gray-500 font-semibold">
+        <h2 className="p-3 py-5 text-gray-500 font-semibold mb-4">
           {" "}
-          Looking Out For
+          Looking Out For...
         </h2>
 
         <ul>
           <li className="py-4">
             <div>
-              <h2 className="text-blue-700">Frontend Developer with Angular</h2>
+              <h2 className="text-cyan-600">Frontend Developer with Angular</h2>
               <h3 className="text-gray-700 font-semibold">WalletHub</h3>
 
               <ul>
@@ -62,7 +62,7 @@ const Jobs = () => {
             </div>
           </li>
           <li>
-            <h2 className="text-blue-700">
+            <h2 className="text-cyan-600">
               Senior iOS developer /iPhone Engineer
             </h2>
 
@@ -114,7 +114,7 @@ const Jobs = () => {
             </ul>
           </li>
           <li>
-            <h2 className="text-blue-700">Software Engineer</h2>
+            <h2 className="text-cyan-600">Software Engineer</h2>
 
             <h3 className="text-gray-700 font-semibold">
               SparkNet Technologies
@@ -171,9 +171,9 @@ const Jobs = () => {
       </div>
 
       <div className="bottomSec pt-4 mt-10">
-        <h3>Network Questions</h3>
+        <h3 className="text-gray-500 font-bold py-6 mb-4">Network Questions</h3>
 
-        <ul>
+        <ul className="text-cyan-600">
           <li className="py-3">
             {" "}
             Where there women against giving women the right to vote

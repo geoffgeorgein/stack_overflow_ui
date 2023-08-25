@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div>
       
       <div className="">
-        <ul className="py-12">
+        <ul className="py-12 cursor-pointer">
           <li className="py-3 flex flex-row">
             <span className="px-2 ">
               <QuestionMarkIcon />

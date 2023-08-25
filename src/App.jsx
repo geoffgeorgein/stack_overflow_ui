@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/footer'
 import Jobs from './components/jobs'
 import Questions from './components/questions'
 import Sidebar from './components/sidebar'
@@ -15,8 +16,10 @@ function App() {
        <Sidebar/>
        <Questions/>
        <Jobs/>
+       
 
       </div>
+      <Footer/>
         
     </>
   )

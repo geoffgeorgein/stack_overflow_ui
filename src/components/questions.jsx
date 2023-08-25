@@ -26,12 +26,12 @@ const Questions = () => {
         <ul className="flex flex-row px-2 text-slate-500 cursor-pointer">
           <li className="px-2 p-1 bg-orange-500 text-white rounded-2xl ">
             {" "}
-            interesting
+            Interesting
           </li>
-          <li className="px-2"> featured</li>
-          <li className="px-2"> hot</li>
-          <li className="px-2"> week</li>
-          <li className="px-2"> month</li>
+          <li className="px-2 p-1"> featured</li>
+          <li className="px-2 p-1"> hot</li>
+          <li className="px-2 p-1"> week</li>
+          <li className="px-2 p-1"> month</li>
         </ul>
       </div>
 
