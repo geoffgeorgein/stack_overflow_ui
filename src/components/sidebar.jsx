@@ -4,11 +4,7 @@ import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
 const Sidebar = () => {
   return (
     <div>
-      <div className="logo flex">
-        {" "}
-        <img className="h-7 w-7 mr-1" src="/stack_overflow.png"></img> Stack
-        Overflow
-      </div>
+      
       <div className="">
         <ul className="py-12">
           <li className="py-3 flex flex-row">
